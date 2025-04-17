@@ -10,6 +10,17 @@ L'infrastructure déployée comprend :
 - Une instance Compute (VM.Standard.E2.1.Micro) éligible à l'offre gratuite dans le sous-réseau public
 - Un bucket Object Storage privé avec versionnement et politique de cycle de vie
 
+## Captures d'écran
+
+Des captures d'écran du déploiement sont disponibles dans le dossier `screenshots/` :
+
+- Création du VCN et des sous-réseaux
+- Configuration de l'instance Compute
+- Configuration du bucket Object Storage
+- Logs de déploiement Terraform
+
+Vous pouvez également consulter une simulation du déploiement en ouvrant le fichier `demo/index.html`.
+
 ## Avantages de l'offre gratuite d'Oracle Cloud
 
 - 2 instances Compute VM.Standard.E2.1.Micro gratuites à vie
