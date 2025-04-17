@@ -1,0 +1,27 @@
+# Fichiers d'état et de verrouillage Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfplan
+.terraform.lock.hcl
+
+# Fichiers de crash Terraform
+crash.log
+
+# Fichiers de variables contenant potentiellement des secrets
+terraform.tfvars
+*.auto.tfvars
+
+# Fichiers de clés
+*.pem
+*.key
+
+# Fichiers système macOS
+.DS_Store
+
+# Fichiers de logs
+*.log
+
+# Répertoires locaux
+.idea/
+.vscode/ 

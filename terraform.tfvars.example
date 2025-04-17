@@ -1,0 +1,21 @@
+# Configuration Oracle Cloud
+oci_region      = "eu-frankfurt-1"  # Région Frankfurt (changez selon votre préférence)
+tenancy_ocid    = "ocid1.tenancy.oc1..xxxxxxxxxx"  # À remplacer par votre OCID de tenancy
+user_ocid       = "ocid1.user.oc1..xxxxxxxxxx"     # À remplacer par votre OCID d'utilisateur
+fingerprint     = "xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx"  # À remplacer
+private_key_path = "~/.oci/oci_api_key.pem"     # Chemin vers votre clé privée
+compartment_id  = "ocid1.compartment.oc1..xxxxxxxxxx"  # À remplacer par votre OCID de compartiment
+
+# Configuration VCN
+vcn_cidr       = "10.0.0.0/16"
+vcn_name       = "projet-devops-vcn"
+availability_domain = "XXXX:XX-XXXXXXXX-X-XX-X"  # À remplacer par votre domaine de disponibilité
+
+# Configuration Compute
+instance_shape = "VM.Standard.E2.1.Micro"  # Instance éligible à l'offre gratuite
+ssh_public_key = "ssh-rsa AAAA..."   # À remplacer par votre clé SSH publique
+instance_name  = "projet-devops-instance"
+
+# Configuration Object Storage
+bucket_name    = "projet-devops-bucket"  # Doit être unique dans votre tenant
+bucket_access  = "NoPublicAccess" 
